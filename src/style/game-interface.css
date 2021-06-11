@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", Arial;
+  color: #fff;
+}
+
+header {
+  height: 60px;
+  background-color: #74b9ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  background-size: cover;
+  width: 90%;
+}
+
+#clock {
+  font-size: 20px;
+}
+
+#pokemon-image-container {
+  display: flex;
+  justify-content: center;
+}
